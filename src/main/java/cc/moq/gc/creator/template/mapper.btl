@@ -1,0 +1,16 @@
+package ${cp.mapperPackage};
+
+import io.starteos.st.common.BaseMapper;
+import ${cp.modelPackage}.${cp.baseClassName};
+
+import java.util.*;
+
+
+/**
+* @author liguohao
+*/
+public interface ${cp.baseClassName}Mapper extends BaseMapper<${cp.baseClassName}>{
+
+	public List<${cp.baseClassName}> findByParams(Map<String, Object> params);
+	
+}
